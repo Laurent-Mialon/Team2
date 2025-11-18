@@ -7,11 +7,6 @@ pipeline {
 
     stages {
 
-        stage('Checkout') {
-            steps {
-                git url: 'https://github.com/Laurent-Mialon/Team2.git'
-            }
-        }
 
         stage('Build Backend') {
             steps {
